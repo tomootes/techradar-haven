@@ -17,7 +17,7 @@ function radar_visualization(config) {
 
   config.svg_id = "radar";
   config.width = 1450;
-  config.height = 1000;
+  config.height = 1100;
   config.colors = {
     background: style.getPropertyValue("--kleur-achtergrond"),
     text: style.getPropertyValue("--kleur-tekst"),
