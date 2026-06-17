@@ -44,9 +44,9 @@ function radar_visualization(config) {
     { name: "Engineering Practices", subtitle: "Hoe we kwaliteit borgen" }, //rechtsboven
   ];
   config.rings = [
-    { name: "Gebruik", color: config.colors.gebruik, textColor: "white" },
+    { name: "Gebruik", color: config.colors.gebruik, textColor: "black" },
     { name: "Probeer", color: config.colors.probeer, textColor: "black" },
-    { name: "Onderzoek", color: config.colors.onderzoek, textColor: "white" },
+    { name: "Onderzoek", color: config.colors.onderzoek, textColor: "black" },
     { name: "Verminder", color: config.colors.verminder, textColor: "white" },
   ];
   config.print_layout = true;
@@ -272,7 +272,7 @@ function radar_visualization(config) {
         .style("fill", config.rings[i].color)
         .style("opacity", 0.75) //doorzichtigheid van de tekst in de ring
         .style("text-transform", "uppercase")
-        .style("font-family", "Raleway")
+        .style("font-family", "Rijksoverheid Sans")
         .style("font-size", "20px")
         .style("font-weight", "900")
         .style("pointer-events", "none")
@@ -299,7 +299,7 @@ function radar_visualization(config) {
       .append("text")
       .attr("transform", translate(title_offset.x, title_offset.y + 20))
       .text(config.title || "")
-      .style("font-family", "Raleway")
+      .style("font-family", "Rijksoverheid Sans")
       .style("font-size", "14")
       .style("fill", config.colors.text);
 
@@ -309,7 +309,7 @@ function radar_visualization(config) {
       .attr("transform", translate(footer_offset.x, footer_offset.y))
       .text("■ nieuw ▲ verplaatst")
       .attr("xml:space", "preserve")
-      .style("font-family", "Raleway")
+      .style("font-family", "Rijksoverheid Sans")
       .style("font-size", "10px")
       .style("fill", config.colors.text);
 
@@ -323,7 +323,7 @@ function radar_visualization(config) {
           translate(legend_offset[quadrant].x, legend_offset[quadrant].y - 65),
         )
         .text(config.quadrants[quadrant].name)
-        .style("font-family", "Raleway")
+        .style("font-family", "Rijksoverheid Sans")
         .style("font-size", "20px")
         .style("font-weight", "900")
         .style("fill", config.colors.text);
@@ -334,7 +334,7 @@ function radar_visualization(config) {
           translate(legend_offset[quadrant].x, legend_offset[quadrant].y - 45),
         )
         .text(config.quadrants[quadrant].subtitle || "")
-        .style("font-family", "Raleway")
+        .style("font-family", "Rijksoverheid Sans")
         .style("font-size", "12px")
         .style("font-weight", "500")
         .style("fill", config.colors.text)
@@ -345,7 +345,7 @@ function radar_visualization(config) {
           .append("text")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
-          .style("font-family", "Raleway")
+          .style("font-family", "Rijksoverheid Sans")
           .style("font-size", "12px")
           .style("font-weight", "bold")
           .style("fill", config.rings[ring].color);
@@ -382,7 +382,7 @@ function radar_visualization(config) {
           .text(function (d, i) {
             return d.id + ". " + d.label;
           })
-          .style("font-family", "Raleway")
+          .style("font-family", "Rijksoverheid Sans")
           .style("font-size", "11px")
           .attr("fill", config.colors.text)
           .on("mouseover", function (d) {
@@ -416,7 +416,7 @@ function radar_visualization(config) {
     .style("fill", config.colors.text);
   bubble
     .append("text")
-    .style("font-family", "Raleway")
+    .style("font-family", "Rijksoverheid Sans")
     .style("font-size", "10px")
     .style("fill", config.colors.background);
   bubble
@@ -527,7 +527,7 @@ function radar_visualization(config) {
         .attr("y", 3)
         .attr("text-anchor", "middle")
         .style("fill", d.textColor)
-        .style("font-family", "Raleway")
+        .style("font-family", "Rijksoverheid Sans")
         .style("font-size", function (d) {
           return blip_text.length > 2 ? "8px" : "9px";
         })

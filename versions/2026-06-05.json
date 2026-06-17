@@ -1,0 +1,548 @@
+[
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Kubernetes",
+    "link": "https://kubernetes.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "ArgoCD",
+    "link": "https://argo-cd.readthedocs.io/en/stable/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "cert-manager",
+    "link": "https://cert-manager.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Grafana",
+    "link": "https://grafana.com/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Loki",
+    "link": "https://grafana.com/oss/loki/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Mimir",
+    "link": "https://grafana.com/oss/mimir/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Tempo",
+    "link": "https://grafana.com/oss/tempo/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Grafana Alloy",
+    "link": "https://grafana.com/docs/alloy/latest/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Keycloak",
+    "link": "https://www.keycloak.org/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Kyverno",
+    "link": "https://kyverno.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 0,
+    "label": "ingress-nginx",
+    "link": "https://kubernetes.github.io/ingress-nginx/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "FluxCD",
+    "link": "https://fluxcd.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "External DNS",
+    "link": "https://github.com/kubernetes-sigs/external-dns",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "External Secrets Operator",
+    "link": "https://external-secrets.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "CloudNative-PG",
+    "link": "https://cloudnative-pg.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "MinIO",
+    "link": "https://min.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Velero",
+    "link": "https://velero.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Headlamp",
+    "link": "https://headlamp.dev/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Pinniped",
+    "link": "https://pinniped.dev/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Sealed Secrets",
+    "link": "https://github.com/bitnami-labs/sealed-secrets",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Gateway API",
+    "link": "https://gateway-api.sigs.k8s.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Istio",
+    "link": "https://istio.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Kind",
+    "link": "https://kind.sigs.k8s.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "NVIDIA GPU Operator",
+    "link": "https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/index.html",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 2,
+    "label": "OpenCost",
+    "link": "https://www.opencost.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Active Directory",
+    "link": "https://en.wikipedia.org/wiki/Active_Directory",
+    "status": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Azure B2C",
+    "link": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/",
+    "status": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Azure Functions",
+    "link": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+    "status": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Azure Service Bus",
+    "link": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
+    "status": 0
+  },
+  {
+    "quadrant": 0,
+    "ring": 3,
+    "label": "BizTalk",
+    "link": "https://en.wikipedia.org/wiki/Microsoft_BizTalk_Server",
+    "status": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Helm",
+    "link": "https://helm.sh/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Kustomize",
+    "link": "https://kustomize.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Docker",
+    "link": "https://www.docker.com/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "OpenTelemetry",
+    "link": "https://opentelemetry.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Taskfile",
+    "link": "https://taskfile.dev/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "mise",
+    "link": "https://mise.jdx.dev/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "Renovate",
+    "link": "https://docs.renovatebot.com/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 0,
+    "label": "kubectl",
+    "link": "https://kubernetes.io/docs/reference/kubectl/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "Docusaurus",
+    "link": "https://docusaurus.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "pre-commit",
+    "link": "https://pre-commit.com/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "kubeconform",
+    "link": "https://github.com/yannh/kubeconform",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "yq",
+    "link": "https://mikefarah.gitbook.io/yq/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 1,
+    "label": "commitlint",
+    "link": "https://commitlint.js.org/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 2,
+    "label": "cloud-provider-kind",
+    "link": "https://github.com/kubernetes-sigs/cloud-provider-kind",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 2,
+    "label": "Backstage",
+    "link": "https://backstage.io/",
+    "status": 1
+  },
+  {
+    "quadrant": 1,
+    "ring": 2,
+    "label": "Terraform",
+    "link": "https://en.wikipedia.org/wiki/Terraform_(software)",
+    "status": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "SOAP",
+    "link": "https://en.wikipedia.org/wiki/SOAP",
+    "status": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "PL/SQL",
+    "link": "https://en.wikipedia.org/wiki/PL/SQL",
+    "status": 0
+  },
+  {
+    "quadrant": 1,
+    "ring": 3,
+    "label": "PowerShell",
+    "link": "https://en.wikipedia.org/wiki/PowerShell",
+    "status": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "HAVEN",
+    "link": "https://haven.commonground.nl/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Cloud Native & Agnostic",
+    "link": "https://github.com/cncf/toc/blob/main/DEFINITION.md",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "CNCF projects",
+    "link": "https://landscape.cncf.io",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "API-first",
+    "link": "https://www.postman.com/api-first/",
+    "status": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Infrastructure as Code",
+    "link": "https://en.wikipedia.org/wiki/Infrastructure_as_code",
+    "status": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 0,
+    "label": "Loose Coupling",
+    "link": "https://en.wikipedia.org/wiki/Loose_coupling",
+    "status": 0
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Policy as Code",
+    "link": "https://www.openpolicyagent.org/docs/latest/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Observability",
+    "link": "https://opentelemetry.io/docs/concepts/observability-primer/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "Zero Trust Security",
+    "link": "https://en.wikipedia.org/wiki/Zero_trust_security_model",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "OpenID Connect",
+    "link": "https://openid.net/connect/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 1,
+    "label": "GitOps",
+    "link": "https://about.gitlab.com/topics/gitops/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "HAVEN+",
+    "link": "https://gitlab.com/commonground/haven/havenplus",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Multi-tenancy",
+    "link": "https://kubernetes.io/docs/concepts/security/multi-tenancy/",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Platform Engineering",
+    "link": "https://platformengineering.org/blog/what-is-platform-engineering",
+    "status": 1
+  },
+  {
+    "quadrant": 2,
+    "ring": 2,
+    "label": "Event-driven Architecture",
+    "link": "https://en.wikipedia.org/wiki/Event-driven_architecture",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "GitOps",
+    "link": "https://about.gitlab.com/topics/gitops/",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Continuous Integration",
+    "link": "https://en.wikipedia.org/wiki/Continuous_integration",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Continuous Delivery",
+    "link": "https://en.wikipedia.org/wiki/Continuous_delivery",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "DevOps",
+    "link": "https://en.wikipedia.org/wiki/DevOps",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Infrastructure as Code",
+    "link": "https://en.wikipedia.org/wiki/Infrastructure_as_code",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 0,
+    "label": "Security by Design",
+    "link": "https://en.wikipedia.org/wiki/Secure_by_design",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Continuous Deployment",
+    "link": "https://en.wikipedia.org/wiki/Continuous_deployment",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Disaster Recovery",
+    "link": "https://en.wikipedia.org/wiki/IT_disaster_recovery",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 1,
+    "label": "Shift-Left Security",
+    "link": "https://en.wikipedia.org/wiki/Shift-left_testing",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "Green Computing",
+    "link": "https://en.wikipedia.org/wiki/Green_computing",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "FinOps",
+    "link": "https://www.finops.org/introduction/what-is-finops/",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 2,
+    "label": "Chaos Engineering",
+    "link": "https://en.wikipedia.org/wiki/Chaos_engineering",
+    "status": 1
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "Handmatige deployments",
+    "link": "https://en.wikipedia.org/wiki/Software_deployment",
+    "status": 0
+  },
+  {
+    "quadrant": 3,
+    "ring": 3,
+    "label": "Ticketgedreven operaties",
+    "link": "https://en.wikipedia.org/wiki/IT_service_management",
+    "status": 0
+  }
+]

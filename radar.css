@@ -1,15 +1,32 @@
-:root {
-  --kleur-achtergrond: #212e63; /* officieel #00116E */
-  --kleur-tekst: white;
-  --kleur-accent: var(--kleur-onderzoek);
+@font-face {
+  font-family: 'Rijksoverheid Sans';
+  src: url('/fonts/rijksoverheid-sans-regular.woff2') format('woff2'),
+       url('/fonts/rijksoverheid-sans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rijksoverheid Sans';
+  src: url('/fonts/rijksoverheid-sans-bold.woff2') format('woff2'),
+       url('/fonts/rijksoverheid-sans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
-  --kleur-gebruik: #66d08f;
+:root {
+  --kleur-achtergrond: #262D30;
+  --kleur-tekst: white;
+  --kleur-accent: #FFBC2C;
+
+  --kleur-gebruik: #FFBC2C;
   --kleur-probeer: white;
-  --kleur-onderzoek: #e67968;
-  --kleur-verminder: #bb4eac;
+  --kleur-onderzoek: #8ecae6;
+  --kleur-verminder: #e07a5f;
 }
 body {
-  font-family: 'Raleway';
+  font-family: 'Rijksoverheid Sans', sans-serif;
   padding-top: 10px;
   padding-bottom: 50px;
   background-color: var(--kleur-achtergrond);
